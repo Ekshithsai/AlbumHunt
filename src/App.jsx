@@ -81,11 +81,9 @@ function App() {
 
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand>🎧 AlbumHunt 🎧</Navbar.Brand>
-        </Container>
-      </Navbar>
+      <Navbar.Brand style={{ fontSize: '3rem', fontWeight: 'bold', color: '#C0FF00' , fontFamily: 'Bebas Neue', textAlign: 'center', marginTop: '20px' }}>
+  🎧 Album Hunt 🎧
+</Navbar.Brand>
 
       <Container className="my-3">
         <InputGroup>
@@ -184,12 +182,13 @@ function App() {
                   Album Link
                 </Button>
                 {album.preview_url ? (
-                  <audio controls src={album.preview_url} style={{ width: '100%' }} />
-                ) : (
-                  <div className="text-muted mt-2 text-center">
-                    <span className="badge bg-secondary">No Preview</span>
-                  </div>
-                )}
+  <audio controls src={album.preview_url} style={{ width: '100%', marginTop: '10px' }} />) : 
+  (
+  <p style={{ marginTop: '10px', color: 'green', fontWeight: '500', textAlign: 'center' }}>
+    No Preview
+  </p>
+)}
+
               </Card.Body>
             </Card>
           ))}

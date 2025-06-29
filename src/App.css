@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em hsla(185, 85%, 62%, 0.667));
 }
 
 @keyframes logo-spin {
@@ -48,10 +48,13 @@
 }
 
 body {
-  background: linear-gradient(to top left, #121212, #1db954);
+  background: linear-gradient(to top right, #121212, #1db954);
   color: white;
   min-height: 100vh;
   margin: 0;
 }
+
+
+
 
 
