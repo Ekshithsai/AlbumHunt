@@ -4,18 +4,18 @@
 
 ---
 
-## 🌟 Features
+## Features
 
-- 🔍 Search albums by artist name
-- 🎨 Display of album covers, names, and release dates
-- 🔗 Clickable Spotify links to each album
-- ⚛️ Built with React and styled using React-Bootstrap
-- 🔐 Secure access using Spotify API credentials
-- ⚡ Super-fast performance with Vite
+-  Search albums by artist name
+-  Display of album covers, names, and release dates
+-  Clickable Spotify links to each album
+-  Built with React and styled using React-Bootstrap
+-  Secure access using Spotify API credentials
+-  Super-fast performance with Vite
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - React 18
 - Vite 5
@@ -29,7 +29,7 @@
 
 Check Out Preview File
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
